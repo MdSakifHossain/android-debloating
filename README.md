@@ -1,6 +1,12 @@
-<!-- # How to debloat you android (without pc) -->
-
 # Debloating Your Android Without a PC
+
+## Table of Contents
+
+* [Introduction](#Introduction)
+* [Prerequisites](#Prerequisites)
+* [Steps](#steps)
+* [Troubleshooting](#Troubleshooting)
+* [Conclusion](#Conclusion)
 
 ## Introduction
 
