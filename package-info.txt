@@ -1,0 +1,180 @@
+app:Secure Keyboard
+package:com.oplus.securitykeyboard
+Launcher:null
+app:Digital Wellbeing
+package:com.google.android.apps.wellbeing
+Launcher:null
+app:Lock Screen Magazine
+package:com.heytap.pictorial
+Launcher:null
+app:Eid-Service
+package:com.oplus.eid
+Launcher:null
+app:ARCore
+package:com.google.ar.core
+Launcher:null
+app:Diagnostics
+package:com.coloros.healthcheck
+Launcher:null
+app:Focus mode
+package:com.coloros.focusmode
+Launcher:null
+app:Emergency SOS
+package:com.oppo.sos
+Launcher:null
+app:HeyTap Cloud
+package:com.heytap.cloud
+Launcher:com.heytap.cloud.home.ui.CloudLauncherActivity
+app:Secure payment
+package:com.nearme.atlas
+Launcher:null
+app:Meta App Manager
+package:com.facebook.appmanager
+Launcher:null
+app:Android R Easter Egg
+package:com.android.egg
+Launcher:null
+app:Colorful Engine
+package:com.heytap.colorfulengine
+Launcher:null
+app:Dirac Control Service
+package:se.dirac.acs
+Launcher:null
+app:Live wallpaper selector
+package:com.android.wallpaper.livepicker
+Launcher:null
+app:E-warranty card
+package:com.coloros.activation
+Launcher:null
+app:Search
+package:com.oppo.quicksearchbox
+Launcher:null
+app:Hot Apps
+package:com.opos.cs
+Launcher:com.opos.cs.deskad.mvp.DeskAdActivity
+app:Files by Google
+package:com.google.android.apps.nbu.files
+Launcher:com.google.android.apps.nbu.files.home.HomeActivity
+app:Music
+package:com.heytap.music
+Launcher:com.nearme.music.splash.SplashActivity
+app:Chrome
+package:com.android.chrome
+Launcher:com.google.android.apps.chrome.Main
+app:Photos
+package:com.google.android.apps.photos
+Launcher:com.google.android.apps.photos.home.HomeActivity
+app:Gestures & motions
+package:com.oplus.gesture
+Launcher:null
+app:GPay
+package:com.google.android.apps.nbu.paisa.user
+Launcher:com.google.nbu.paisa.flutter.gpay.app.LauncherActivity
+app:Payment protection
+package:com.coloros.securepay
+Launcher:null
+app:Meta Services
+package:com.facebook.services
+Launcher:null
+app:EmailPartnerProvider
+package:com.android.email.partnerprovider
+Launcher:null
+app:realme Share
+package:com.coloros.oshare
+Launcher:null
+app:YouTube
+package:com.google.android.youtube
+Launcher:com.google.android.youtube.app.honeycomb.Shell$HomeActivity
+app:Games
+package:com.oplus.games
+Launcher:com.oplus.games.ui.main.MainGameActivity
+app:Weather
+package:com.coloros.weather2
+Launcher:com.coloros.weather.main.view.WeatherMainActivity
+app:Maps
+package:com.google.android.apps.maps
+Launcher:com.google.android.maps.MapsActivity
+app:Aod
+package:com.oplus.aod
+Launcher:null
+app:APP Enhancement Services
+package:com.oplus.cosa
+Launcher:null
+app:Clock
+package:com.coloros.alarmclock
+Launcher:com.coloros.alarmclock.AlarmClock
+app:Private Safe
+package:com.coloros.encryption
+Launcher:null
+app:App cloner
+package:com.oplus.multiapp
+Launcher:null
+app:Weather Services
+package:com.coloros.weather.service
+Launcher:null
+app:Google
+package:com.google.android.googlequicksearchbox
+Launcher:com.google.android.googlequicksearchbox.SearchActivity
+app:Lens
+package:com.google.ar.lens
+Launcher:com.google.vr.apps.ornament.app.lens.LensLauncherActivity
+app:My realme
+package:com.heytap.usercenter
+Launcher:null
+app:SecurityAnalysis
+package:com.realme.securitycheck
+Launcher:null
+app:Wireless emergency alerts
+package:com.google.android.cellbroadcastreceiver
+Launcher:null
+app:Diverse engine
+package:com.oplus.uiengine
+Launcher:null
+app:Compass
+package:com.coloros.compass2
+Launcher:com.coloros.compass.flat.FlatCompass
+app:Personalizations
+package:com.oplus.uxdesign
+Launcher:null
+app:FinShell Pay
+package:com.finshell.fin
+Launcher:com.finshell.fin.splash.SplashActivity
+app:Meta App Installer
+package:com.facebook.system
+Launcher:null
+app:OK Google enrollment
+package:com.android.hotwordenrollment.okgoogle
+Launcher:null
+app:Combine captions
+package:com.realme.movieshot
+Launcher:null
+app:Kid Space
+package:com.coloros.childrenspace
+Launcher:null
+app:User guide
+package:com.oppo.operationManual
+Launcher:null
+app:System cloner
+package:com.coloros.systemclone
+Launcher:null
+app:Gmail
+package:com.google.android.gm
+Launcher:com.google.android.gm.ConversationListActivityGmail
+app:Calculator
+package:com.google.android.calculator
+Launcher:com.android.calculator2.Calculator
+app:Glance for realme
+package:com.glance.internet
+Launcher:null
+app:Browser
+package:com.heytap.browser
+Launcher:com.android.browser.BrowserActivity
+app:Google Location History
+package:com.google.android.gms.location.history
+Launcher:null
+app:Assistant
+package:com.google.android.apps.googleassistant
+Launcher:com.google.android.apps.googleassistant.AssistantActivity
+app:Calendar
+package:com.google.android.calendar
+Launcher:com.android.calendar.AllInOneActivity
