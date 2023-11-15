@@ -45,12 +45,12 @@ apt install nodejs -y
 
 #### 5. Clone this Repo
 ```bash
-git clone <repo_link>
+git clone https://github.com/MdSakifHossain/android-debloating
 ```
 
 #### 6. cd into that Repo
 ```bash 
-cd <repo_name>
+cd android-debloating
 ```
 
 #### 7. Open "Package Name Viewer 2.0"
