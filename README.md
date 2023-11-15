@@ -102,6 +102,7 @@ sh rish
 ```bash
 sh uninstall
 ```
+Now, rest your thoughts and look at the terminal. While the `uninstall` script is deleting all the bloatware from your phone. It's just jaw dropping and it kinda feels relaxing to look at the uninstalling process.
 
 #### 17. Exit that session
 By typing the code below 👇
