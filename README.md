@@ -1,78 +1,119 @@
-# Debloating Your Android Without a PC
+# How to debloat you android (without pc)
+
 
 ## Table of Contents
 
 * [Introduction](#Introduction)
 * [Prerequisites](#Prerequisites)
 * [Steps](#steps)
-* [Troubleshooting](#Troubleshooting)
 * [Conclusion](#Conclusion)
+
 
 ## Introduction
 
 Bloatware is software that is pre-installed on a device, often by the manufacturer or carrier. It can be used to promote the manufacturer's brand or services, or to generate revenue through advertising. Bloatware can often be removed, but this process can be difficult and time-consuming, especially if you don't have a PC.
 
-This Readme will show you how to debloat your Android without a PC. This method is safe and will not damage your device.
+>Note: This method is safe and will not damage your device.
+
 
 ## Prerequisites
 
-* An Android phone or tablet
-* A USB cable
-* A USB OTG adapter
-* A USB flash drive
+* An Android phone ( Version >= 11 )
+* A Wireless Network
+
 
 ## Steps
 
-### 1. Download and install the following apps:
+#### 1. Open Termux
 
-[Image of ADB App Control app icon]
-[Image of Shizuku app icon]
-[Image of Universal Android Debloater app icon]
+#### 2. Update the repositories.
+```bash
+apt update && apt upgrade -y
+```
 
-### 2. Enable USB debugging on your device.
+#### 3. Install git
+```bash
+apt install git -y
+```
 
-1. Go to **Settings > System > Developer options**.
-2. If you don't see **Developer options**, tap **About phone** and tap **Build number** seven times.
-3. In **Developer options**, enable **USB debugging**.
+#### 4. Install NodeJs
+```bash
+apt install nodejs -y
+```
 
-### 3. Connect your phone or tablet to your computer using the USB cable.
+>Note: I'm pretty much familiar with `JavaScript` that's why im installing `NodeJs` and written some stuff on `Js`. You can use any language of your choice. Like, python, go, etc.
 
-### 4. Open ADB App Control and grant it root access.
+#### 5. Clone this Repo
+```bash
+git clone <repo_link>
+```
 
-1. Launch the ADB App Control app.
-2. Tap the **Grant root access** button.
-3. Confirm your selection by tapping **OK**.
+#### 6. cd into that Repo
+```bash 
+cd <repo_name>
+```
 
-### 5. Open Shizuku and enable it as a system service.
+#### 7. Open "Package Name Viewer 2.0"
+Select every app that you wanna uninstall. Click on the copy button. 
 
-1. Launch the Shizuku app.
-2. Tap the **Start Shizuku** button.
-3. Wait for the Shizuku service to start.
-4. Tap the **Enable as system service** button.
-5. Grant Shizuku the necessary permissions.
-6. Wait for Shizuku to enable itself as a system service.
+#### 8. Open a Text Editor of your choice.
+Open the cloned Repo. Open the "package-info.txt" file. This file should be empty. If not then, clear and paste the **copied** text from "package name Viewer 2.0" and save it. You may wanna look at that later I guess.
 
-### 6. Open Universal Android Debloater and select the apps you want to uninstall.
+#### 9. Open a browser. (Optional)
+Ask `GPT` or `Bard` to make that data into an `array`. Here I'm naming that `array` as `packageList`. 
 
-1. Launch the Universal Android Debloater app.
-2. Search for the apps you want to uninstall.
-3. Tap the checkbox next to each app you want to uninstall.
+>Note: you can do this by yourself. But, I'm lazy AF..
 
-### 7. Tap the "Uninstall" button and confirm your selection.
+#### 10. Copy and Paste
+Copy that `array` and Paste it on the `utility.js` file which is located on the cloned Repo. 
+>Note: make sure that you have exported that `array` like this example below 👇
+```js
+export const packageList = [...]
+```
 
-1. Tap the **Uninstall** button.
-2. Read the warning message carefully and tap **OK** to confirm.
-3. The apps will be uninstalled from your device.
+#### 11. Open Shizuku
+Setup the Shizuku app (Wireless debugging). The app is pretty self explainatory. Read the app. There's enough information for the setup.
 
-## Troubleshooting
+#### 12. Connect Shizuku with Termux
+You have to Authorize Termux from Shizuku. Then, there's an option called `Use Shizuku in in terminal apps`. Go to that section and do as the steps are written. There are only 3 steps. 
+You just have to do only first 2 steps. There's some catch. So, do as I say. Remember that you have to export the files to the cloned directory.
 
-If you are having trouble uninstalling an app, try the following:
+#### 13. Open Termux
+Fire up Termux and navigate to that cloned directory.
 
-* Make sure that the app is not a system app. System apps cannot be uninstalled without root access.
-* Make sure that you have entered the correct package name for the app. You can find the package name for an app by searching for it in Google Play Store.
-* Try restarting your device.
-* If you are still having trouble, you can search for the app name in the XDA Developers forum to see if there are any specific instructions for uninstalling it.
+#### 14. Use NodeJs
+```bash
+node index.js
+```
+
+This command will generate a bash script called `uninstall`. And, output this on the `terminal`.
+
+```
+script creation successful..!!
+script writing successful..!!
+```
+
+#### 15. Run `rish`
+```bash
+sh rish
+```
+
+#### 16. Run `uninstall`
+```bash
+sh uninstall
+```
+
+#### 17. Exit that session
+By typing the code below 👇
+```bash
+exit
+```
+
+#### 18. Restart your Android
+Now everything is fakam fast..
+Your phone is Debloated.
+
+You're welcome.. 🤗🥸
 
 ## Conclusion
-
 Debloating your Android without a PC is a safe and easy way to improve the performance and battery life of your device. By following the steps in this Readme, you can quickly and easily remove bloatware from your Android phone or tablet.
